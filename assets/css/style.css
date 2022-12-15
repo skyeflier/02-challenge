@@ -1,0 +1,127 @@
+body {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+header {
+    font-family: monospace;
+    padding: 60px;
+    text-align: center;
+    background: black;
+    color: white;
+}
+
+nav {
+    display: flex;
+    background-color: black;
+}
+
+nav a {
+    color: white;
+    padding: 20px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: grey;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#about {
+    font-family: monospace;
+    text-align: left;
+    background: white;
+    display: inline-block;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* Saving for if I added paragraphs
+#about-content {
+    text-align: left;
+    background: white;
+    float: right;
+    font-family: monospace;
+} */
+
+#work {
+    font-family: monospace;
+    text-align: left;
+    background: white;
+    /* display: inline-block;
+    justify-content: space-around;
+    flex-wrap: wrap; */
+}
+
+/* Saving for if I added paragraphs
+#work-content {
+    text-align: left;
+    background: white;
+    float: right;
+    font-family: fantasy;
+} */
+
+#contact {
+    text-align: center;
+    background: white;
+}
+
+#contact-content {
+    text-align: center;
+    background: white;
+    justify-content: space-evenly;
+}
+
+footer {
+    width: 100%;
+    bottom: 0;
+    padding: 20px;
+    text-align: left;
+    background: white;
+    color: black;
+    margin-top: auto;
+}
+
+@media screen and (max-width: 992px) {
+    header {
+        background: lightblue;
+    }
+
+    nav {
+        background: cadetblue;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        background: cadetblue;
+    }
+
+    nav {
+        background: darkcyan;
+    }
+}
+
+@media screen and (max-width: 368px) {
+    header {
+        background: darkcyan;
+    }
+
+    nav {
+        background: lightblue;
+    }
+}
+
+
+/* average size for screen by device
+368 mobile
+768 tablet
+992 laptop
+ */
